@@ -31,17 +31,18 @@ const Myntragithublink = ()=>{
 }
 
 const Gloosierlink = ()=>{
-   window.open("https://delightful-phoenix-888d86.netlify.app/");
+   window.open("https://delightful-phoenix-888d86.netlify.app/");//no link
 }
 const Gloosiergithublink = ()=>{
-   window.open("https://github.com/tusharbisht16/New-york-times");
+   window.open("https://github.com/sanjukumari-tech/taskManager-trello-");
 }
 
 const  Notepadlink = ()=>{
-   window.open("https://delightful-phoenix-888d86.netlify.app/");
+   window.open("https://delightful-phoenix-888d86.netlify.app/");//link is not working
+   
 }
 const Notepadgithublink = ()=>{
-   window.open("https://github.com/sanjukumari-tech/taskManager-trello-");
+   window.open("https://github.com/tusharbisht16/New-york-times");
 }
 
 const GemGardenlink = () => {
@@ -62,7 +63,7 @@ const  GemGardengithublink = () => {
 
          <div className='Projectcards-div'>
 
-            {/* Myntra project */}
+            {/* befit project */}
 
             <div className="card project-card">
                <div>

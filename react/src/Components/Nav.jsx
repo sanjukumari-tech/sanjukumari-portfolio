@@ -1,7 +1,7 @@
 
 import "../Styles/nav.css"
 import { useState } from 'react';
-import Saurav_Chavan_Resume from "../files/Saurav_Chavan_Resume.pdf"
+import sanjukumari_resume from "../files/sanjukumari_resume.pdf"
 
 
 
@@ -35,11 +35,11 @@ const Nav = () => {
   }
 
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1J6KIey93846zXnLNvDwA_RLqvfR_EPNQ/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1PqPmGfVQZs-SNHz5FvzJQTOVWtlDYtx1/view?usp=sharing");
     const link = document.createElement('a');
 
-    link.href = Saurav_Chavan_Resume;
-    link.setAttribute('download', 'Saurav_Chavan_Resume');
+    link.href = sanjukumari_resume;
+    link.setAttribute('download', 'sanjukumari_resume');
     link.setAttribute('id', 'resume-link-1');
     document.body.appendChild(link);
     link.click();
