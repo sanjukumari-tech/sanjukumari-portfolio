@@ -134,10 +134,10 @@ word-spacing: normal;
         font-size: 2rem;
     }
     .devloperimg{
-        width: 16rem;
+        width: 20rem;
     }
     .devloperimg-div{
-        width: 16rem;
+        width: 20rem;
     }
 }
 
@@ -162,7 +162,11 @@ word-spacing: normal;
         font-size: 1rem;
     }
     .devloperimg{
-        width: 12rem;
+        margin: 20px 50px 20px -90px;
+       
+        width: 250%;
+        height: 200%;
+        
     }
     .devloperimg-div{
         width: 12rem;
