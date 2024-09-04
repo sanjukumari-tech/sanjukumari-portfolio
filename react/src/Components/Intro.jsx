@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import "../Styles/intro.css";
 import Svgwave from './Svgwave';
-import devlogo from "../Images/devloperLogo.svg"
+import rr from "../Images/rr.png"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaGithub } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
@@ -53,32 +53,32 @@ const Intro = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }} className='devloperimg-div' >
-              <img className="devloperimg" src={devlogo} alt="dev" />
+              <img className="devloperimg" src={rr} alt="dev" />
             </motion.div>
 
 
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          className='socialamedialogos'>
+          className='socialamedialogos'> */}
 
-            <motion.div onClick={githublink} id="contact-github"
+            {/* <motion.div onClick={githublink} id="contact-github"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}>
               <FaGithub className='icon-github' />
-            </motion.div>
-            <motion.div onClick={emaillink} id="contact-email"
+            </motion.div> */}
+            {/* <motion.div onClick={emaillink} id="contact-email"
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}><MdAlternateEmail className='icon-email' /></motion.div>
-            <motion.div onClick={linkedinlink}  id="contact-linkedin"
+              whileTap={{ scale: 0.9 }}><MdAlternateEmail className='icon-email' /></motion.div> */}
+            {/* <motion.div onClick={linkedinlink}  id="contact-linkedin"
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}><AiFillLinkedin className='icon-linkedin' /></motion.div>
+              whileTap={{ scale: 0.9 }}><AiFillLinkedin className='icon-linkedin' /></motion.div> */}
 
 
 
-          </motion.div>
+          {/* </motion.div> */}
 
 
 

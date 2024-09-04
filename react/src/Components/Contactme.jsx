@@ -36,15 +36,6 @@ const Contactme = () => {
                                 <p id="contact-phone">+91 8130533702</p>
                             </div>
                         </div>
-                        <div className="details-card blue">
-                            <div>
-                                <div>
-
-                                <MdLocationOn className='contact-icon'/>
-                                </div>
-                                <p>New Delhi, Delhi</p>
-                            </div>
-                        </div>
                         <div className="details-card green" onClick={emaillink} id="contact-email">
                             <div>
                                 <div >
@@ -54,6 +45,16 @@ const Contactme = () => {
                                 <p>sanju080598@gmail.com</p>
                             </div>
                         </div>
+                        <div className="details-card blue">
+                            <div>
+                                <div>
+
+                                <MdLocationOn className='contact-icon'/>
+                                </div>
+                                <p>New Delhi, Delhi</p>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 

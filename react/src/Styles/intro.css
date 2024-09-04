@@ -5,14 +5,14 @@
 .intro-main-img-div {
     background-size: cover;
     /* height: 90vh; */
-    height: 890px;
+    height: 990px;
 }
 
 
 .svgbg {
 
     width: 100%;
-    height: 850px;
+    height: 950px;
     box-sizing: border-box;
     display: block;
     background-color: #0e4166;
@@ -53,11 +53,11 @@ word-spacing: normal;
 
 .devloperimg{
 
-   width: 20rem;
+   width: 30rem;
 }
 
 .devloperimg-div{
-    width: 20rem;
+    width: 30rem;
    
     margin: auto;
 

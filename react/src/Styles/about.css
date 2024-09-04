@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 .About-div{
-    padding-top: 60px;
+    padding-top: 100px;
     
 }
 .about-me{
@@ -18,6 +18,8 @@
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .image-des>div>img{
@@ -30,9 +32,10 @@
 .image-des>div>p{
     text-align: justify;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 40px;
     line-height: 1.3rem;
     font-size: 1.1rem;
+    font-style: sans-serif;
     /* padding: 40px; */
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
@@ -56,10 +59,10 @@
     gap: 10px;
     min-height: 40px;
     padding: 0 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     z-index: 1;
-    background-color: #242a35;
-    border: solid 1px #e8e8e82d;
+    background-color: #153f8d;
+    border: solid 1px #d112122d;
     transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
    }
 

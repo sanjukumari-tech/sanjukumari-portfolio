@@ -35,7 +35,7 @@ const Nav = () => {
   }
 
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1PqPmGfVQZs-SNHz5FvzJQTOVWtlDYtx1/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1iBd59KeSP91bGVnzJS5pN3sWmijEECA_/view?usp=drive_link");
     const link = document.createElement('a');
 
     link.href = sanjukumari_resume;
@@ -51,7 +51,7 @@ const Nav = () => {
       <nav className={navbg ? "activenavbar" : "navbar"} id="nav-menu" >
         <div className="max-width">
           <div className="title_logo" style={{fontFamily:"cursive"}}>
-          <h1 id='namelogo'>Sanju</h1>
+          <h1 id='namelogo'>Sanju Kumari</h1>
           </div>
           <ul className={`menu ${isActive ? 'active' : ''}`}>
             <li>
@@ -82,10 +82,11 @@ const Nav = () => {
                 Contact
               </a>
             </li>
-            {/* <li id="resume-button-1" className='nav-link resume'>
-              <button class={navbg? "active-nav-resume-button active-type1":"nav-resume-button type1"} onClick={handleDownload}>
-              </button>
-            </li> */}
+            <li id="resume-button-1">
+              {/* <button > */}
+                <a href=""   onClick={handleDownload}>Resume</a>
+              {/* </button> */}
+            </li>
           </ul>
           <div className="menu-btn menu-btn-position" onClick={handleMenuClick}>
             <i className={`fas fa-bars ${isActive ? 'active' : ''}`} />
