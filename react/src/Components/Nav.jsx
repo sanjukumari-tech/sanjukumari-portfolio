@@ -82,10 +82,10 @@ const Nav = () => {
                 Contact
               </a>
             </li>
-            <li id="resume-button-1" className='nav-link resume'>
+            {/* <li id="resume-button-1" className='nav-link resume'>
               <button class={navbg? "active-nav-resume-button active-type1":"nav-resume-button type1"} onClick={handleDownload}>
               </button>
-            </li>
+            </li> */}
           </ul>
           <div className="menu-btn menu-btn-position" onClick={handleMenuClick}>
             <i className={`fas fa-bars ${isActive ? 'active' : ''}`} />
