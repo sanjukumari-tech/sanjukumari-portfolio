@@ -3,9 +3,9 @@ import "../Styles/intro.css";
 import Svgwave from './Svgwave';
 import rr from "../Images/rr.png"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FaGithub } from "react-icons/fa";
-import { MdAlternateEmail } from "react-icons/md";
-import { AiFillLinkedin } from "react-icons/ai";
+// import { FaGithub } from "react-icons/fa";
+// import { MdAlternateEmail } from "react-icons/md";
+// import { AiFillLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 

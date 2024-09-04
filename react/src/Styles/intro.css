@@ -15,8 +15,8 @@
     height: 950px;
     box-sizing: border-box;
     display: block;
-    background-color: #0e4166;
-    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+    background-color: #4816ac;
+    background-image: linear-gradient(to bottom, rgba(245, 107, 215, 0.86), #0e4166);
 }
 
 .intro-main-text-div {
@@ -35,7 +35,7 @@
 
 .nameh1tag{
    
-color: #a8dff1;
+color: #4cd3aa;
 text-align: center;
 font-size: 4rem;
 font-family: 'Poppins', sans-serif;

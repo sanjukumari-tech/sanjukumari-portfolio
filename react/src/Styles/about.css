@@ -1,162 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.About-div{
+.About-div {
     padding-top: 100px;
-    
+    background: linear-gradient(135deg, #f3ffe3, #d7f5e3);
 }
-.about-me{
+
+.about-me {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-   
+    color: #333;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
-.image-des{
-   
+.image-des {
     display: flex;
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    gap: 0px; /* Space between image and paragraph */
 }
 
-.image-des>div>img{
-    width: 300px;
+.image-des > div {
+    flex: 1; /* Flex to distribute space between image and paragraph */
+}
+
+.image-des > div > img {
+    width: 80%;
+    margin: 0 20px 10px 150px;
+    max-width: 250px; /* Control the maximum size of the image */
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: 2px solid black;
+    /* border: 4px solid #a8e063; */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.image-des>div>p{
+.image-des > div > img:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 20px;
+}
+
+.image-des > div > p {
     text-align: justify;
-    margin-top: 30px;
-    margin-left: 40px;
-    line-height: 1.3rem;
-    font-size: 1.1rem;
-    font-style: sans-serif;
-    /* padding: 40px; */
+    /* margin: 20px 80px 10px 0px; */
+    font-size: 1.2rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
+    color: #555;
+    transition: color 0.4s ease;
+    line-height: 1.6;
+}
 
+.image-des > div > p:hover {
+    color: #1e90ff;
+}
+
+/* Other styles remain the same */
+.resume-button {
+    width: 190px;
+    margin: 10px 10px 10px 40px;
+    text-align: center;
 }
 
 .download-button {
     position: relative;
-    border-width: 0;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 4px;
-    z-index: 1;
-   }
-   
-   .download-button .docs {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    min-height: 40px;
-    padding: 0 10px;
+    border: none;
+    color: #ffffff;
+    padding:10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 700;
     border-radius: 10px;
     z-index: 1;
-    background-color: #153f8d;
-    border: solid 1px #d112122d;
-    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
-   }
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px;
+    background: linear-gradient(135deg, #4c63af, #00C9FF);
+}
 
+/* Rest of your button styles */
 
-   .resume-button{
-    width: 150px;
-    margin: auto;
-    margin-top: 30px;
-   }
-   
-   .download-button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
-      
-   }
-   
-   .download {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 90%;
-    margin: 0 auto;
-    z-index: -1;
-    border-radius: 4px;
-    transform: translateY(0%);
-    background-color: #01e056;
-    border: solid 1px #01e0572d;
-    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
-   }
-   
-   .download-button:hover .download {
-    transform: translateY(100%)
-   }
-   
-   .download svg polyline,.download svg line {
-    animation: docs 1s infinite;
-   }
-   
-   @keyframes docs {
-    0% {
-     transform: translateY(0%);
-    }
-   
-    50% {
-     transform: translateY(-15%);
-    }
-   
-    100% {
-     transform: translateY(0%);
-    }
-   }
-   
-  
-
-
-
-   @media screen and (max-width: 767px){
-
-    .image-des{
-   
-        display: block;
-        width: 85%;
-        margin: auto;
-        margin-top: 20px;
-    }
-    .image-des>div:nth-child(1){
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .image-des>div>img{
-        width: 200px;
-        
-    }
-
-    .image-des>div:nth-child(2){
-        display: flex;
+@media screen and (max-width: 767px) {
+    .image-des {
         flex-direction: column;
-        justify-content: center;
-        width: 100%;
+        gap: 20px; /* Adjust the gap for smaller screens */
+        width: 85%;
+        margin: 20px auto;
     }
 
-    .image-des>div:nth-child(2)>p{
-        font-size: 1rem;
-        line-height: normal;
+    .image-des > div > img {
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+    .image-des > div > p {
+        font-size: 1.1rem;
         padding-right: 10px;
     }
 
-    .resume-button{
+    .resume-button {
         width: 120px;
         margin: auto;
         margin-top: 30px;
     }
-
-   }
+}

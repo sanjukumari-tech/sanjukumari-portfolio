@@ -64,7 +64,7 @@ const Contactme = () => {
 
                     <div className="contact-card">
 
-                        <span className="contact-title">Feel Free To Contact</span>
+                        <span className="contact-title">Drop Me a Line</span>
                         <form className="contact-form" action="https://formsubmit.co/sanju080598@gmail.com" method="POST">
                             <div className="contact-group">
                                 <input placeholder="‎" type="text" required="" />
