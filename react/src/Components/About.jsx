@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/about.css";
-import myphoto from "../Images/myphoto.jpg"
+import myphoto from "../Images/myphoto.png"
 
 
 
