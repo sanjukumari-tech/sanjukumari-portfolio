@@ -1,4 +1,3 @@
-import React from 'react';
 import "../Styles/project.css";
 import htmlimg from "../Images/mini-icons/icons8-html.svg"
 import befit from "../Images/befit.png"

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/about.css";
-import myphoto from "../Images/myphoto.png"
+import sssanju from "../Images/sssanju.jpg"
 
 
 
@@ -26,7 +26,7 @@ const About = ({ref,func}) => {
 
             <div className='image-des'>
                 <div>
-                <img className='home-img' src={myphoto} alt="myimage" />
+                <img className='home-img' src={sssanju} alt="myimage" />
                 </div>
                 <div >
                     <p id="user-detail-intro">Passionate and Results-Driven Web Developer with over 1000+ hours of hands-on coding experience and a robust foundation in data structures and algorithms (100+ hours). Adept at both front-end and back-end development, with expertise in ReactJS, Node.js, JavaScript, ExpressJS, and MongoDB. Demonstrated proficiency in building dynamic web applications, including feature-rich clones of popular websites. Excel in collaborative environments, consistently delivering high-quality solutions on time. A highly motivated problem solver with a disciplined approach to tackling complex challenges and a commitment to continuous learning and improvement</p>
